@@ -1,4 +1,5 @@
 {
+	"root": true,
 	"env": {
 		"browser": true,
 		"es6": true
@@ -24,23 +25,20 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["prettier", "react", "eslint-plugin-import-helpers"],
+	"plugins": ["prettier", "react"],
 	"rules": {
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/self-closing-comp": "error",
-		"import-helpers/order-imports": [
+		"no-unused-vars": [
 			"warn",
 			{
-				"newlinesBetween": "always",
-				"groups": [
-					"/^react/",
-					"module",
-					["parent", "sibling", "index"],
-					"/.*css$/"
-				],
-				"alphabetize": { "order": "desc", "ignoreCase": true }
+				"vars": "all",
+				"args": "after-used",
+				"caughtErrors": "all",
+				"ignoreRestSiblings": false
 			}
-		]
+		],
+		"no-unneeded-ternary": "warn"
 	}
 }
