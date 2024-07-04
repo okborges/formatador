@@ -1,0 +1,39 @@
+{
+    "id": "42dbc09a-03da-11ef-8452-0e967d8f2559",
+    "dataEntityId": "plimit_extract",
+    "accountId": "564f03fa-152b-44dd-b935-ba2423261051",
+    "accountName": "samsungbrshop",
+    "followers": [],
+    "schemas": [
+        "test",
+        "1"
+    ],
+    "created_at": "2024-04-26T14:35:45.627Z",
+    "document": "02529950237",
+    "email": "ramon.santos-e@samsung.com",
+    "employeeId": "",
+    "birthDate": "1996-08-19",
+    "salesChannel": 3,
+    "orderId": "SGP-1411241136157-01",
+    "categoryId": "amount",
+    "skuId": 0,
+    "qtd": 0,
+    "value": 22900,
+    "status": "created",
+    "createdBy": "dfc4aa18-df12-4eb2-8c5c-7291c783265e",
+    "createdBy_USER": {
+        "Id": "dfc4aa18-df12-4eb2-8c5c-7291c783265e",
+        "Login": "vtexappkey-samsungbrshop-EHVKRY",
+        "Name": null
+    },
+    "createdIn": "2024-04-26T14:35:45.6655648Z",
+    "lastInteractionBy": "dfc4aa18-df12-4eb2-8c5c-7291c783265e",
+    "lastInteractionBy_USER": {
+        "Id": "dfc4aa18-df12-4eb2-8c5c-7291c783265e",
+        "Login": "vtexappkey-samsungbrshop-EHVKRY",
+        "Name": null
+    },
+    "lastInteractionIn": "2024-04-26T14:35:45.6655648Z",
+    "tags": [],
+    "dataInstanceId": "42dbc09a-03da-11ef-8452-0e967d8f2559"
+},

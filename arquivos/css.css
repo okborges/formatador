@@ -1,0 +1,10 @@
+.teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #367ee5;
+    text-decoration: underline;
+}
