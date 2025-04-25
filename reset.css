@@ -23,3 +23,8 @@ textarea {
 	background: transparent;
 	line-height: inherit;
 }
+
+button {
+	cursor: pointer;
+}
+
